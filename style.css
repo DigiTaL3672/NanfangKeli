@@ -1,0 +1,31 @@
+@font-face{
+    font-family: FZZhengHeiS-EL-GB;
+    src: url("方正正纤黑简体.TTF")
+}
+
+p.CNtitle{
+    text-align: left;
+    font-family: FZZhengHeiS-EL-GB;
+    font-size:200%;
+    padding-bottom:0%;
+}
+
+p.ENtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size:100%;
+    padding-left:5%;
+}
+
+
+
+img{
+    width:5%;
+    height:auto;
+}
+
+.background{
+    width:100%;
+    opacity:10%;
+    
+}
