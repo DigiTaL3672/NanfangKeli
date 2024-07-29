@@ -3,18 +3,23 @@
     src: url("方正正纤黑简体.TTF")
 }
 
-p.CNtitle{
+.logo2{
     text-align: left;
+    line-height:10%;
+    display: flex;
+}
+
+
+p.CNtitle{
+    
     font-family: FZZhengHeiS-EL-GB;
     font-size:200%;
-    padding-bottom:0%;
 }
 
 p.ENtitle{
     font-family: 'Roboto';
     font-style: normal;
     font-size:100%;
-    padding-left:5%;
 }
 
 
@@ -22,10 +27,23 @@ p.ENtitle{
 img{
     width:5%;
     height:auto;
+    
 }
 
 .background{
     width:100%;
     opacity:10%;
+    position: absolute;
     
+}
+
+.bodytext{
+    text-align:center;
+    font-size:300%;
+
+}
+
+.footnote{
+    text-align:center;
+
 }
