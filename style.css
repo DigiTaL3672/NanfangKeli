@@ -8,7 +8,7 @@
 
 .logo2{
     text-align: left;
-    line-height:8%;
+    line-height:8px;
     display: flex;
     flex-direction:row;
     min-width:0;
@@ -17,7 +17,7 @@
 }
 
 img.logo{
-    width:5%;
+    width:80px;
     height:relative;
     flex-grow:1;
 }
@@ -37,15 +37,15 @@ p.ENtitle{
     font-family: 'Roboto';
     font-style: normal;
     font-size:100%;
-    color:rgb(81, 129, 185);
+    color:#0076E0;
 }
 
 
 .background{
-    width:80%;
+    width:1000px;
     opacity:10%;
-    justify-content: center;
     position: absolute;
+    padding-left:250px;
     
     
 }
@@ -55,10 +55,17 @@ p.ENtitle{
 .bodytext{
     text-align:center;
     font-size:300%;
-    line-height:8;
+    line-height:600px;
+    font-family: FZZhengHeiS-EL-GB;
 }
 
-.footnote{
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
     text-align:center;
-    
+    background-color:#E6F0FF;
+    color:#0076E0;
+    padding: 2em;
 }
